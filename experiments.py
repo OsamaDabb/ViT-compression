@@ -1,8 +1,8 @@
 import torch
-from pruning import *
-from train import fine_tune
-from evaluate import evaluate
-import low_rank_approximation
+from utils.pruning import *
+from utils.train import fine_tune
+from utils.evaluate import evaluate
+import utils.low_rank_approximation
 
 
 def low_rank_and_pruning_test(model, data, config, model_path=None):

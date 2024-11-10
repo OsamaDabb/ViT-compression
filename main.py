@@ -2,11 +2,11 @@ import torch
 import numpy as np
 import random
 
-import dataloader
+import utils.dataloader as dataloader
 from config import config
-from model import createModel
-import experiments
-from low_rank_approximation import apply_lra_to_model
+from utils.model import createModel
+import utils.experiments as experiments
+from utils.low_rank_approximation import apply_lra_to_model
 import sys
 
 
